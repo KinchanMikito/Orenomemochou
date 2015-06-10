@@ -13,6 +13,7 @@
 		EAE2A9191B23CBFB009E4283 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE2A9181B23CBFB009E4283 /* Images.xcassets */; };
 		EAE2A91C1B23CBFB009E4283 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE2A91A1B23CBFB009E4283 /* LaunchScreen.xib */; };
 		EAE2A9281B23CBFB009E4283 /* notesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2A9271B23CBFB009E4283 /* notesTests.swift */; };
+		EAE2A9321B23CD88009E4283 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2A9311B23CD88009E4283 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EAE2A9211B23CBFB009E4283 /* notesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE2A9261B23CBFB009E4283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE2A9271B23CBFB009E4283 /* notesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesTests.swift; sourceTree = "<group>"; };
+		EAE2A9311B23CD88009E4283 /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				EAE2A9111B23CBFB009E4283 /* AppDelegate.swift */,
 				EAE2A9131B23CBFB009E4283 /* ViewController.swift */,
+				EAE2A9311B23CD88009E4283 /* MemoViewController.swift */,
 				EAE2A9151B23CBFB009E4283 /* Main.storyboard */,
 				EAE2A9181B23CBFB009E4283 /* Images.xcassets */,
 				EAE2A91A1B23CBFB009E4283 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				EAE2A9141B23CBFB009E4283 /* ViewController.swift in Sources */,
 				EAE2A9121B23CBFB009E4283 /* AppDelegate.swift in Sources */,
+				EAE2A9321B23CD88009E4283 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
